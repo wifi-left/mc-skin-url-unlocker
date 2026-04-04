@@ -10,7 +10,7 @@ import com.mojang.authlib.yggdrasil.TextureUrlChecker;
 @Mixin(value = TextureUrlChecker.class, remap = false)
 public class AllowUrlMixin {
     @Inject(method = "isAllowedTextureDomain", at = @At("HEAD"), cancellable = true)
-    public static void isAllowedTextureDomain(String url,CallbackInfoReturnable<Boolean> cir) {
+    public static void isAllowedTextureDomain(final String url,CallbackInfoReturnable<Boolean> cir) {
         cir.cancel();
         cir.setReturnValue(true);
     }
