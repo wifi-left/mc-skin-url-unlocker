@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "skin-unlocker",
+  "version": "${version}",
+  "name": "",
+  "description": "Fabric client-side mod that allow you to load skin from unofficial url.",
+  "authors": [
+    "wifi-left"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "io.wifi.skinunlocker.client.SkinUnlockerClient"
+    ]
+  },
+  "mixins": [
+    "skinunlocker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.21.1"
+  }
+}
