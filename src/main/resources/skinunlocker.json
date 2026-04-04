@@ -5,6 +5,7 @@
   "client": [
     "AllowUrlMixin"
   ],
+  "mixins":[],
   "injectors": {
     "defaultRequire": 1
   }
