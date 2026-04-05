@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import net.fabricmc.api.ModInitializer;
 
-public class SkinUnlockerClient implements ModInitializer {
+public class SkinUnlocker implements ModInitializer {
 
     public static Logger LOGGER = LoggerFactory.getLogger("skinunlocker");
 
