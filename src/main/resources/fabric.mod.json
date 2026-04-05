@@ -8,7 +8,6 @@
     "wifi-left"
   ],
   "license": "MIT",
-  "environment": "server",
   "entrypoints": {
     "main": [
       "io.wifi.skinunlocker.SkinUnlocker"
