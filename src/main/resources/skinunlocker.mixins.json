@@ -4,7 +4,9 @@
   "compatibilityLevel": "JAVA_21",
   "client": [],
   "mixins": [
-    "AllowUrlMixin"
+    "AllowUrlMixin",
+    "AllowUnsafeSkinPropertyMixin",
+    "AllowUnsafeSkinYggdrasilServicesKeyInfoMixin"
   ],
   "injectors": {
     "defaultRequire": 1
